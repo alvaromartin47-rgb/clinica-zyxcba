@@ -1,6 +1,6 @@
 # CREADO POR ALVARO MARTIN EN PYTHON :)
 
-CFLAGS = -g -std=c99 -Wall -Wconversion -Wtype-limits -pedantic
+CFLAGS = -g -Wall -Wconversion -Wno-sign-conversion -Werror
 VFLAGS = --leak-check=full --track-origins=yes --show-reachable=yes
 
 # OBJETOS A BORRAR
